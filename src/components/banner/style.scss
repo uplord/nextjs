@@ -1,0 +1,21 @@
+.banner {
+  padding: 3rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  transition: all .3s ease;
+
+  @media (min-width: 768px) {
+    padding: 4rem 0;
+  }
+
+  h1 {
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .3s ease;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+}

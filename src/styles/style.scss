@@ -1,0 +1,8 @@
+@use './normalize' as *;
+@use './globals' as *;
+@use './utilities' as *;
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}

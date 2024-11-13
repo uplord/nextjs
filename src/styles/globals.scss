@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #dd2121;
+  --primary-color-text: #fff;
+
+  --background-color: #fff;
+  --heading-color: #121110;
+  --text-color: #312e2c;
+  --border-color: #ccc;
+
+  &.dark {
+    --background-color: #171717;
+    --heading-color: #fff;
+    --text-color: #bdc1c6;
+    --border-color: #4d5361;
+  }  
+}

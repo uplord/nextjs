@@ -1,0 +1,19 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  transition: all .3s ease;
+
+  @media (min-width: 768px) {
+    gap: 4rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
