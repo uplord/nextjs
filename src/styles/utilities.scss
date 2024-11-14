@@ -17,3 +17,59 @@ main {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+span {
+
+  &.primary {
+    color: var(--primary-color);
+  }
+
+  &.secondary {
+    color: var(--secondary-color);
+  }
+}
