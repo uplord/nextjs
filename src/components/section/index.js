@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import Buttons from "../buttons";
 import styles from "./style.module.scss";
 
 export default function Section() {
 
   const buttons = [
-    { title: "Button 1", link: "/", class: "primary" },
+    { title: "Get in touch", link: "mailto:michael@uplord.co.uk", class: "primary" },
   ];
 
   return (
@@ -12,9 +13,12 @@ export default function Section() {
       <div className="container">
         <div className={styles.content}>
           <div className={`${styles.image}`}>
-            <img
+            <Image
               src="/images/me.png"
               alt="Front End Development"
+              width="500"
+              height="617"
+              priority={true}
             />
           </div>
           <div className={`${styles.text}`}>

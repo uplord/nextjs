@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import Buttons from "../buttons";
 import styles from "./style.module.scss";
 
 export default function Banner() {
   const buttons = [
-    { title: "Get in touch", link: "/", class: "primary large" },
-    { title: "Download CV", link: "/", class: "link large" },
+    { title: "Get in touch", link: "mailto:michael@uplord.co.uk", class: "primary large" },
+    { title: "Download CV", link: "/Michael_Allen_CV.pdf", class: "link large", target: "_blank" },
   ];
 
   return (
@@ -12,9 +13,12 @@ export default function Banner() {
       <div className={`container ${styles.container}`}>
         <div className={`${styles.content}`}>
           <div className={`${styles.image}`}>
-            <img
+            <Image
               src="/images/me.jpeg"
               alt="Michael Allen"
+              width="748"
+              height="747"
+              priority={true}
             />
           </div>
           <div className={`${styles.text}`}>
