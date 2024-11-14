@@ -1,5 +1,5 @@
-import Banner from '../components/banner';
-import Section from '../components/section';
+import Banner from "../components/banner";
+import Section from "../components/section";
 
 export default function Home() {
   return (

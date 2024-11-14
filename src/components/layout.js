@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import Script from "next/script";
 import "../styles/style.scss";
 
 export default function Layout({ children }) {

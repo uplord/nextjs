@@ -1,4 +1,4 @@
-import Buttons from '../buttons';
+import Buttons from "../buttons";
 import "./style.scss";
 
 export default function Banner() {
