@@ -1,9 +1,9 @@
 import Button from "../button";
 import styles from "./style.module.scss";
 
-export default function Buttons({ data, align, className }) {
+export default function Buttons({ data, className }) {
   return (
-    <div className={`${styles.buttons} ${className} justify-${align}`}>
+    <div className={`${styles.buttons} ${className}`}>
       {data.map((button, index) => (
         <Button key={index} data={button} />
       ))}
