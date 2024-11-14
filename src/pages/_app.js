@@ -6,7 +6,7 @@ export default function MyApp({ Component, pageProps }) {
     <Layout>
       <Script
         src="/js/script.js"
-        strategy="afterInteractive"
+        strategy="beforeInteractive"
         type="text/javascript"
       />
       <Component {...pageProps} />
