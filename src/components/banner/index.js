@@ -11,7 +11,7 @@ export default function Banner() {
     <section className="banner">
       <div className="container">
         <div className="text text-center items-center">
-          <h1><span className="primary block">Hi, I'&apos;m Michael</span>A Senior Front End Developer</h1>
+          <h1><span className="primary block">Hi, I&apos;m Michael</span>A Senior Front End Developer</h1>
           <h2>With 9 years in the industry creating websites</h2>
           <Buttons data={buttons} align="center" />
         </div>

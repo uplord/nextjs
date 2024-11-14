@@ -1,4 +1,4 @@
-import Buttons from "../buttons";
+import Button from "../button";
 import "./style.scss";
 
 export default function Buttons({ data, align }) {
