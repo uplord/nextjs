@@ -6,14 +6,21 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <Script
-          src="/js/script.js"
+        <link
+          rel="preload"
+          href="/js/script.js"
+          as="script"
           type="text/javascript"
         />
       </Head>
       <body>
         <Main />
         <NextScript />
+        <Script
+          src="/js/script.js"
+          type="text/javascript"
+          strategy="beforeInteractive"
+        />
       </body>
     </Html>
   );
