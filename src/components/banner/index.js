@@ -1,5 +1,5 @@
 import Buttons from "../buttons";
-import "./style.scss";
+import styles from "./style.module.scss";
 
 export default function Banner() {
   const buttons = [
@@ -7,15 +7,20 @@ export default function Banner() {
     { title: "Button 2", link: "/", class: "link large" },
   ];
 
+  console.log(styles)
+
   return (
-    <section className="banner">
+    <section className={styles.banner}>
       <div className="container">
-        <div className="text text-center items-center">
-          <h1><span className="primary block">Hi, I&apos;m Michael</span>A Senior Front End Developer</h1>
-          <h2>With 9 years in the industry creating websites</h2>
-          <Buttons data={buttons} align="center" />
+        <div className={`${styles.text} text-center items-center`}>
+          <h1 className={styles.h1}>
+            <span className="primary block">Hi, I&apos;m Michael</span>
+            A Senior Front End Developer
+          </h1>
+          <h2 className={styles.h2}>With 9 years in the industry creating websites</h2>
+          <Buttons data={buttons} align="center" className={styles.buttons} />
         </div>
       </div>
     </section>
-  )
+  );
 }
