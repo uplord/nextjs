@@ -3,6 +3,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 3rem;
   transition: all .3s ease;
 
   @media (min-width: 768px) {
