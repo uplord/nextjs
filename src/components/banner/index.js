@@ -16,7 +16,7 @@ export default function Banner() {
             A Senior Front End Developer
           </h1>
           <h2>With 9 years in the industry creating websites</h2>
-          <Buttons data={buttons} align="center" />
+          <Buttons data={buttons} align="center" className={styles.buttons} />
         </div>
       </div>
     </section>
